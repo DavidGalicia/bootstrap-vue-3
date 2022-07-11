@@ -7,10 +7,6 @@ import visualizer from 'rollup-plugin-visualizer'
 import dts from 'vite-plugin-dts'
 
 const config = defineConfig({
-  resolve: {
-    alias: {},
-  },
-
   build: {
     minify: true,
     lib: {

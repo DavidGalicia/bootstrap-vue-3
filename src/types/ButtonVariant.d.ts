@@ -1,4 +1,4 @@
-import ColorVariant from './ColorVariant'
+import type {ColorVariant} from '.'
 
 type ButtonVariant =
   | ColorVariant

@@ -7,7 +7,7 @@
 <script lang="ts">
 import {omit} from '../../utils/object'
 import {computed, defineComponent, PropType} from 'vue'
-import {ColorVariant} from '../../types'
+import type {ColorVariant} from '../../types'
 import {BLINK_PROPS} from '../BLink/BLink.vue'
 import {isLink} from '../../utils/router'
 import {pluckProps} from '../../utils/props'
@@ -25,8 +25,8 @@ export default defineComponent({
     ...linkProps,
   },
   setup(props) {
-    const link = computed(() => isLink(props))
-    const computedTag = computed(() => (link.value ? 'b-link' : props.tag))
+    const link = computed<boolean>(() => isLink(props))
+    const computedTag = computed<string>(() => (link.value ? 'b-link' : props.tag))
 
     const classes = computed(() => ({
       [`bg-${props.variant}`]: props.variant,
