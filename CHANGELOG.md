@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.19](https://github.com/cdmoro/bootstrap-vue-3/compare/v0.1.18...v0.1.19) (2022-07-13)
+
+
+### Bug Fixes
+
+* test commit please ignore ([a898b13](https://github.com/cdmoro/bootstrap-vue-3/commit/a898b1365ee860fad760d9d98be1bff1d6c1b6b1))
+
+## [0.1.18](https://github.com/cdmoro/bootstrap-vue-3/compare/v0.1.17...v0.1.18) (2022-07-12)
+
+
+### Bug Fixes
+
+* **BCardBody:** subTitleTag typo fix ([ac4e86a](https://github.com/cdmoro/bootstrap-vue-3/commit/ac4e86ab6f7f4dc1277498d943615d73a51fd5cc))
+
+## [0.1.17](https://github.com/cdmoro/bootstrap-vue-3/compare/v0.1.16...v0.1.17) (2022-07-12)
+
+
+### Bug Fixes
+
+* subtitle should be undefined by default ([1424108](https://github.com/cdmoro/bootstrap-vue-3/commit/1424108bf8ea6e38efd46bdb549cc26937504b17))
+
 ## [0.1.16](https://github.com/cdmoro/bootstrap-vue-3/compare/v0.1.15...v0.1.16) (2022-07-11)
 
 

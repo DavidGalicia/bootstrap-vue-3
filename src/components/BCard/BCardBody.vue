@@ -34,8 +34,8 @@ interface BCardBodyProps {
 const props = withDefaults(defineProps<BCardBodyProps>(), {
   bodyTag: 'div',
   overlay: false,
-  subTitle: 'h4',
   titleTag: 'h4',
+  subTitleTag: 'h4',
 })
 
 const classes = computed(() => ({
